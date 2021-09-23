@@ -7,7 +7,7 @@ face_rect = haar_cascade.detectMultiScale(gray,scaleFactor=1.1,minNeighbors=3)
 print(f'Number of face found ={len(face_rect)}')
 for (x,y,w,h) in face_rect:
     cv.rectangle(img,(x,y),(x+w,y+h),(0,255,0),thickness=2)
-cv.imshow('Detected Faces',img)
+cv.imshow('Detected Faces',img )
 cv.waitKey(0)
 #capture = cv.VideoCapture('fireworks.mp4')
 #while True: 
