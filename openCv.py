@@ -1,5 +1,6 @@
 import cv2 as cv
-img = cv.imread('sky.png')
+#use group.jpg if you want it to detect  faces of group of people or sky.png for single person i have used photos from movies Friends and Star wars aniken skywalker ...SVB
+img = cv.imread('group.jpg')  
 gray = cv.cvtColor(img,cv.COLOR_BGR2GRAY)
 cv.imshow('Show face in Gray',gray)
 haar_cascade =cv.CascadeClassifier('haar_face.xml')
