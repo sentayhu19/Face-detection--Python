@@ -6,7 +6,7 @@ people = ['Angelina Jolie','Keanu Reeves','Charlize Theron','teddy afro']
 #lables = np.load('lables.npy')
 face_recognizer = cv.face.LBPHFaceRecognizer_create()
 face_recognizer.read('face_trained.yml')
-img = cv.imread(r'C:\Users\SVB\Desktop\openCv\Charlize Theron\valsvb\c13.jpg')
+img = cv.imread(r'C:\Users\SVB\Desktop\openCv\Charlize Theron\valsvb\cvalsvb.jpg')
 gray = cv.cvtColor(img,cv.COLOR_BGR2GRAY)
 cv.imshow('person',gray)
 faces_rect= haar_cascade.detectMultiScale(gray,1.1,4)
