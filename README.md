@@ -12,7 +12,7 @@ git clone  https://github.com/sentayhu19/face-detection--python
 -OpenCv
 
 ### Prerequisites
--Android studio
+-Vs code or any other editor
 
 
 ### Author
